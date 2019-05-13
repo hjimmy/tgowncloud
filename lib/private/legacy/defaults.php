@@ -60,15 +60,15 @@ class OC_Defaults {
 		$this->config = \OC::$server->getConfig();
 		$version = \OCP\Util::getVersion();
 
-		$this->defaultEntity = 'ownCloud'; /* e.g. company name, used for footers and copyright notices */
-		$this->defaultName = 'ownCloud'; /* short name, used when referring to the software */
-		$this->defaultTitle = 'ownCloud'; /* can be a longer name, for titles */
-		$this->defaultBaseUrl = 'https://owncloud.org';
+		$this->defaultEntity = $this->l->t('TgCloud'); /* e.g. company name, used for footers and copyright notices */
+		$this->defaultName = $this->l->t('TgCloud'); /* short name, used when referring to the software */
+		$this->defaultTitle = $this->l->t('TgCloud'); /* can be a longer name, for titles */
+		$this->defaultBaseUrl = 'https://c705951836cvc.scd.wezhan.cn/';
 		$this->defaultSyncClientUrl = 'https://owncloud.org/install/#install-clients';
 		$this->defaultiOSClientUrl = 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8';
 		$this->defaultiTunesAppId = '543672169';
 		$this->defaultAndroidClientUrl = 'https://play.google.com/store/apps/details?id=com.owncloud.android';
-		$this->defaultDocBaseUrl = 'https://doc.owncloud.org';
+		$this->defaultDocBaseUrl = 'https://c705951836cvc.scd.wezhan.cn/';
 		$this->defaultDocVersion = $version[0] . '.' . $version[1]; // used to generate doc links
 		$this->defaultSlogan = $this->l->t('A safe home for all your data');
 		$this->defaultLogoClaim = '';

@@ -38,7 +38,7 @@
 	z-index: 2000;
 	height: 45px;
 	line-height: 2.5em;
-	background-color: #1d2d44;
+	background-color: #4b77be;
 	box-sizing: border-box;
 }
 
@@ -183,7 +183,7 @@
 	max-height: 85%;
 	margin-top: 0;
 	padding-bottom: 10px;
-	background-color: rgba(0, 0, 0, .97);
+	background-color: #4b77be;
 	box-shadow: 0 1px 10px rgba(50, 50, 50, .7);
 	border-radius: 3px;
 	border-top-left-radius: 0;
@@ -203,7 +203,7 @@
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(0, 0, 0, 0);
-	border-bottom-color: rgba(0, 0, 0, .97);
+	border-bottom-color: #4b77be;
 	border-width: 10px;
 	margin-left: -10px;
 }
@@ -387,7 +387,7 @@
 	top: 45px;
 	z-index: 2000;
 	display: none;
-	background-color: rgba(0, 0, 0, .97);
+	background-color: #4b77be;
 	box-shadow: 0 1px 10px rgba(50, 50, 50, .7);
 	border-radius: 3px;
 	border-top-left-radius: 0;
