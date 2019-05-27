@@ -60,9 +60,9 @@ class OC_Defaults {
 		$this->config = \OC::$server->getConfig();
 		$version = \OCP\Util::getVersion();
 
-		$this->defaultEntity = $this->l->t('TgCloud'); /* e.g. company name, used for footers and copyright notices */
-		$this->defaultName = $this->l->t('TgCloud'); /* short name, used when referring to the software */
-		$this->defaultTitle = $this->l->t('TgCloud'); /* can be a longer name, for titles */
+		$this->defaultEntity = $this->l->t('SSCStone-Cloud Disk'); /* e.g. company name, used for footers and copyright notices */
+		$this->defaultName = $this->l->t('SSCStone-Cloud Disk'); /* short name, used when referring to the software */
+		$this->defaultTitle = $this->l->t('SSCStone-Cloud Disk'); /* can be a longer name, for titles */
 		$this->defaultBaseUrl = 'https://c705951836cvc.scd.wezhan.cn/';
 		$this->defaultSyncClientUrl = 'https://owncloud.org/install/#install-clients';
 		$this->defaultiOSClientUrl = 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8';
